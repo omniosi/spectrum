@@ -3,6 +3,10 @@ $(document).ready(function(){
 		effect: 'fade',
 		fadeSpeed: 2000,
 		crossfade: true,
-		play: 8000
+		play: 8000/*
+,
+		generatePagination:false,
+		paginationClass:'nav'
+*/
 	})/* ; */
 });

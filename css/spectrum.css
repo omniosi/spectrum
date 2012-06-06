@@ -32,12 +32,17 @@ a:hover{
 #bk4{	background: url(../img/spectrum_bk4.jpg) no-repeat; }
 
 .pagination{
+	position: relative;
 	list-style: none;
+	z-index: 100;
+	width:100%;
+	top:11px;
+	left:7px;
 }
 .pagination li.current a,
 .pagination li.current a:hover{
-	background: #538dca;
-	color:#538dca;
+	background: #d0e0f1;
+	color:#d0e0f1;
 }
 .pagination li a:hover{
 	background: #a1c1e2;
@@ -49,7 +54,7 @@ a:hover{
 	overflow: hidden;
 	width:10px;
 	height:10px;
-	border: 2px solid #2e5f95;
+	border: 1px solid #2e5f95;
   -webkit-border-radius: 20px;
   border-radius: 20px;
 	background: #fff;
@@ -109,6 +114,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', end
 }
 #footer{
 	position: absolute;
+	top:740px;
 /* 	height:30px; */
 	border-top: solid 3px #2e5f95;
 	z-index: 0;
@@ -128,4 +134,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e0f1', end
 #footer p{
 	font-size: .75em;
 	float:right;
+}
+#logo{
+	background: url(../img/spectrum_logo.jpg) 50% 50% no-repeat;
+	height:140px;
+}
+#dr{
+	background: url(../img/spectrum_dr.jpg) no-repeat;
+	width:100px;
+	height:125px;
+	border:solid 1px #538dca;
 }
