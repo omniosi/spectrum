@@ -2,18 +2,22 @@
 	margin:0;
 	padding:0;
 }
+#slides{
+	margin: 0 auto;
+	width: 1024px;
+}
 .slides_container{
 	width:1024px;
-	height: 780px;
+	height: 740px;
 }
 .slides_container div{
 	width:1024px;
-	height: 780px;
+	height: 740px;
 	display: block;
 }
 .photo{
 	width:1024px;
-	height: 780px;
+	height: 740px;
 }
 #bk1{	background: url(../img/spectrum_bk1.jpg) no-repeat; }
 #bk2{	background: url(../img/spectrum_bk2.jpg) no-repeat; }

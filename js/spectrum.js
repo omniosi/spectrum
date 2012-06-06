@@ -4,5 +4,5 @@ $(document).ready(function(){
 		fadeSpeed: 2000,
 		crossfade: true,
 		play: 8000
-	});
+	})/* ; */
 });
