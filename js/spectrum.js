@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	$('#slideshow').cycle({
-		fx: 'fade',
-		speed: 2000,
-		timeout: 2000,
-		pager: '#nav'
-	}).after('<div id="nav">');
+	$('#slides').slides({
+		effect: 'fade',
+		fadeSpeed: 2000,
+		crossfade: true,
+		play: 8000
+	});
 });
