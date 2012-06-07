@@ -176,7 +176,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e0f1', end
 	z-index: 200;
 }
 #logo{
-	background: #fff;
+	background: #fff url(../img/spectrum_logo.jpg) center bottom no-repeat;
 /* 	background: rgba(255,255,255,.8) url(../img/spectrum_logo.jpg) 50% 100% no-repeat; */
 	background: rgba(255,255,255,.8) url(../img/spectrum_logo.jpg) center bottom no-repeat;
 	height:140px;
